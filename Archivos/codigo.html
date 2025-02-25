@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Ejemplo  de manejo de objetos  cadena</title>
+</head>
+<body>
+<script LANGUAGE="javaScript">
+    var abc=prompt("Introduzca un texto:");
+    with(document)
+    {
+        write("La cadena es:"+abc+"<BR>");
+        write("El numero de caracteres de la cadena es:"+abc.length+"<BR>");
+        write("Haciendola ancla:"+abc.anchor("#")+"<BR>");
+        write("En grande:"+abc.big()+"<BR>");    
+        write("Parpadeante:"+abc.blink()+"<BR>"); 
+        write("Caracter 4 es:"+abc.charAt(3)+"<BR>"); 
+        write("Fuente FIXED:"+abc.fixed()+"<BR>"); 
+        write("De color rojo:"+abc.fontcolor("#FF0000")+"<BR>");
+        write("De clor verde:"+abc.fontcolor("green")+"<BR>");
+        write("Fuente Tamano 7:"+abc.fontsize(7)+"<BR>");
+        write("<BR>En cursiva:"+abc.italics()+"<BR>");
+        write("La primera <I>a</I> esta, empezando a contar por detras,");
+        write("En la posicion :"+abc.lastIndexOf("a")+"<BR>");
+        write("Como un link:"+abc.link("#")+"<BR>");
+        write("En peqeno:"+abc.small()+"<BR>");
+        write("Tachada:"+abc.strike()+"<BR>");
+        write("Subindice:"+abc.sub()+"<BR>");
+        write("Superindice:"+abc.sup()+"<BR>");
+        write("Minusculas:"+abc.toLowerCase()+"<BR>");
+        write("Mayusculas:"+abc.toUpperCase()+"<BR>");
+        write("Subcadena entre los caracteres 4 y 6:");
+        write( abc.substring(3,6)+"<BR>");
+        write("Entre los caracteres 6 y 4:"+abc.substring(6,3)+"<BR>");
+    }
+   </script>
+</body>
+</html>
